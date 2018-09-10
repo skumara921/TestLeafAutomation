@@ -19,7 +19,7 @@ public class TC001_LoginAndLogout extends ProjectMethods {
 	}
 	@Test(dataProvider="fetchData")
 	public  void loginAndLogout(String uname, String password){
-//		Adding login script
+//		Adding login test script
 		new LoginPage()
 		.typeUsername(uname)
 		.typePassword(password)
